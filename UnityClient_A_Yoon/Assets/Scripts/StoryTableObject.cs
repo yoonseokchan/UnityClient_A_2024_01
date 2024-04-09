@@ -8,7 +8,7 @@ namespace STORYGAME
     [CreateAssetMenu(fileName = "NewStory" ,menuName = "ScriptableObjects/StoryTableObjet")]
     public class StoryTableObject : ScriptableObject
     {
-        public int storyNymber;
+        public int storyNumber;
         public Enums.StoryType storyType;
         public bool storyDone;
 
