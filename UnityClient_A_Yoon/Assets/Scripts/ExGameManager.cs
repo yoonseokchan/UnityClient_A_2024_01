@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class ExGameManager : MonoBehaviour
 {
-    public ExGameData gameData;
-    // Start is called before the first frame update
+    public ExGameData gameData;   
     void Start()
     {
-        Debug.Log("Game Name: " + gameData.gameName);
-        Debug.Log("Game Score: " + gameData.gameScore);
-        Debug.Log("Is Game Active: " + gameData.isGameActive);
-
+        Debug.Log("Game Name : " + gameData.gameName);
+        Debug.Log("Game Score : " + gameData.gameScore);
+        Debug.Log("Is Game Active : " + gameData.isGameActive);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
